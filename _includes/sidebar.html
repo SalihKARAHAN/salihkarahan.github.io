@@ -26,6 +26,12 @@
         {% endif %}
       {% endfor %}
 
+      {% for post in paginator.posts %}
+      <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a></li>
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
       <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
