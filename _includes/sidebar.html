@@ -26,6 +26,8 @@
         {% endif %}
       {% endfor %}
 
+      <hr>
+
       {% assign post_list = site.posts %}
       {% for post in post_list %}
       <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
