@@ -1,1 +1,1 @@
-# [Salih KARAHAN](http://http://salihkarahan.github.io)
+# [Salih KARAHAN](http://salihkarahan.github.io)
