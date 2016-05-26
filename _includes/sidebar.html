@@ -56,6 +56,31 @@
       </li>
       {% endfor %}
 
+      {% assign post_list = site.posts %}
+      {% for post in post_list %}
+      <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      {% assign post_list = site.posts %}
+      {% for post in post_list %}
+      <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      {% assign post_list = site.posts %}
+      {% for post in post_list %}
+      <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+      {% assign post_list = site.posts %}
+      {% for post in post_list %}
+      <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+      {% endfor %}
+
       <li class="sidebar-nav-item"><a href="{{ site.github.repo }}">GitHub project</a></li>
       <li class="sidebar-nav-item">Currently v{{ site.version }}</li>
     </ul>
