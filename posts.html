@@ -1,0 +1,14 @@
+---
+layout: page
+title: About
+---
+
+<p class="message">
+    Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+</p>
+
+<hr> {% assign post_list = site.posts %} {% for post in post_list %}
+<li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+</li>
+{% endfor %}
