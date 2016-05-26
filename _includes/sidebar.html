@@ -26,7 +26,8 @@
         {% endif %}
       {% endfor %}
 
-      {% for post in paginator.posts %}
+      {% assign post_list = site.posts %}
+      {% for post in post_list %}
       <li class="sidebar-nav-item{% if page.url == post.url %} active{% endif %}">
         <a href="{{ post.url }}">{{ post.title }}</a>
       </li>
