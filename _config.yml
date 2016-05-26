@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            Salih KARAHAN
-tagline:          'A Jekyll theme'
+tagline:          'Salih KAARAHAN | Software Specialist'
 description:      'Software Developer'
 url:              http://salihkarahan.github.io
 
@@ -20,5 +20,5 @@ paginate:         5
 # Custom vars
 version:          2.0.0
 
-github:           
+github:
   repo:           https://github.com/SalihKARAHAN
