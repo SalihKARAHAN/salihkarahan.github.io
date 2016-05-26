@@ -6,14 +6,14 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Hyde
+title:            Salih KARAHAN
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
+description:      'Software Developer'
+url:              http://salihkarahan.github.io
 
 author:
   name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  url:            '#twitter'
 
 paginate:         5
 
