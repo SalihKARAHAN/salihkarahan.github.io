@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Posts
 ---
 
 <p class="message">
